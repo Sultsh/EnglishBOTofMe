@@ -4,7 +4,7 @@ const { Telegraf, Markup } = require('telegraf');
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 if (!BOT_TOKEN) {
-  console.error('Error: BOT_TOKEN muhit o\'zgaruvchisi topilmadi.');
+  console.error('Error: 8538557025:AAHxyGoWwPnjnMIXzwngx8_CZQMBz9yM0Eg muhit o\'zgaruvchisi topilmadi.');
   process.exit(1);
 }
 
@@ -508,4 +508,5 @@ process.once('SIGTERM', () => bot.stop('SIGTERM'));
 
 bot.launch().then(() => {
   console.log('Bot started');
+
 });
