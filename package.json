@@ -1,0 +1,16 @@
+{
+  "name": "oneroom-vocab-quiz-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot — 4000 Essential English Words quiz (Uzbek). Ready for Railway.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.3",
+    "dotenv": "^16.0.3"
+  }
+}
